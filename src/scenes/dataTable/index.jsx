@@ -72,6 +72,8 @@ class App extends React.Component {
     // ComponentDidMount is used to
     // execute the code
     componentDidMount() {
+        console.log('mounted');
+
         const zillowUrl = "https://www.zillow.com/async-create-search-page-state";
         const requestOptions = {
             method: 'PUT',

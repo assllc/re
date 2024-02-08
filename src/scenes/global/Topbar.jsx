@@ -38,7 +38,9 @@ const Topbar = () => {
           )}
         </IconButton>
         <IconButton>
-          <NotificationsOutlinedIcon />
+          <a href="/table">
+            <NotificationsOutlinedIcon />
+          </a>
         </IconButton>
         <IconButton>
           <SettingsOutlinedIcon />
