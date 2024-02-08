@@ -6,6 +6,7 @@ import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettin
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
 import Header from "../../components/Header";
+import DataTable from "../dataTable/index";
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -102,6 +103,7 @@ const Dashboard = () => {
       >
         <DataGrid checkboxSelection rows={mockDataTeam} columns={columns} />
       </Box>
+      <DataTable />
     </Box>
   );
 };
